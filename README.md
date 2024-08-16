@@ -127,6 +127,26 @@ title Module Dependency Graph
 @enduml
 ```
 
+## Next Steps
+- Implement unit testing for other services and components to improve code reliability.
+- Integrate internationalization for multilingual support based on user locations.
+- Optimize performance by lazy-loading modules and reducing bundle sizes.
+
+**Questions for Michael:**
+- Are there any additional authentication features or flows to be considered?
+- Any specific user interface or branding elements you would like to see implemented?
+- Shall we integrate real-time data features like WebSockets for the activity feed?
+
+## Context & Continuation
+- **Current Focus:** We are focusing on integrating modals for creating and editing vacations, ensuring data is handled through API interactions, and optimizing user experiences with loading spinners.
+- **Outstanding Tasks:** Complete the integration of real-time data updates if needed, finalize UI/UX designs for the application, and ensure all routes and navigations are user-friendly.
+- **Notes:** This application connects to the Journalogy backend, facilitating collaborative journaling during vacations with real-time updates and intuitive design.
+
+### Important Directories
+- **Frontend:** `C:\Users\mhmoo\source\repos\TurkProjects\Journalogy.Frontend`
+- **Backend:** `C:\Users\mhmoo\source\repos\TurkProjects\Journalogy.Backend`
+- **Swagger JSON Definition:** Accessible via [https://localhost:7183/swagger/v1/swagger.json](https://localhost:7183/swagger/v1/swagger.json)
+
 **Notes:**
 - Refer to the backend documentation for API details and integration guidelines.
 - This application will connect with Journalogy backend to provide a seamless journaling experience.

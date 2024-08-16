@@ -1,0 +1,14 @@
+@startuml
+
+title Module Dependency Graph
+
+[AppModule] --> [PageModule]
+[AppModule] --> [AuthModule]
+[AppModule] --> [DataModule]
+[AppModule] --> [ApiModule]
+[AppModule] --> [SharedModule]
+[PageModule] --> [SharedModule]
+[PageModule] --> [AppAngularMaterialModule]
+[SharedModule] --> [AppAngularMaterialModule]
+
+@enduml
