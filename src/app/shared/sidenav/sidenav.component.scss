@@ -1,0 +1,17 @@
+.sidenav-container {
+  height: 100vh;
+  display: flex;
+}
+
+mat-sidenav-content {
+  flex: 1;
+}
+
+.sidenav-logo {
+  padding: 1.5rem;
+}
+
+.active-sidenav-link {
+  background: rgba(0,0,0,0.1);
+  font-weight: bold;
+}

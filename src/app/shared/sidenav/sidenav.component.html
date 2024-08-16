@@ -1,0 +1,14 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav mode="side" [(opened)]="isSidenavOpen">
+    <mat-nav-list>
+      <img src="https://via.placeholder.com/150" alt="Logo" class="sidenav-logo">
+      <a mat-list-item routerLink="/home" routerLinkActive="active-sidenav-link">Home</a>
+      <a mat-list-item routerLink="/vacations" routerLinkActive="active-sidenav-link">Vacations</a>
+      <a mat-list-item routerLink="/profile" routerLinkActive="active-sidenav-link">Profile</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
